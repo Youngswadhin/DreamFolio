@@ -2,7 +2,6 @@ import React from 'react';
 import TypingEffect from './TypingEffect'; // Import the TypingEffect component
 import './Hero.css';
 
-
 const Hero = () => {
   return (
     <section className='hero-container'>
@@ -18,7 +17,6 @@ const Hero = () => {
           <a href="mailto:youngswadhin@gmail.com"><i className='bx bxl-gmail'></i></a>
           <a href="#"><i className='bx bxl-whatsapp'></i></a>
         </div>
-       
       </div>
     </section>
   );
