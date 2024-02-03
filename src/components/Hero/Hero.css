@@ -1,0 +1,146 @@
+.hero-container{
+    /* display: flex; */
+    align-items: center;
+    position: relative;
+    margin-top: 12rem;
+}
+
+.hero-container h1{
+    font-size: 4.4rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+.hero-container h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-container p{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+
+.hero-container::after,
+.hero-container::before{
+    content: " ";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: #8c00ff;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+
+.hero-container::after{
+    top: -15rem;
+    left: -5rem;
+}
+.hero-container::before{
+    top: -3rem;
+    right: 1rem;
+}
+
+.share {
+    
+    bottom: 3rem;
+    left: 5%;
+    display: flex;
+    align-items: center;
+}
+.social i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    font-size: 1.6rem;
+    color: #fff;
+background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 1.6rem 1.3rem;
+    border: none;
+    outline: .5px solid transparent;
+    border-radius: 0.2rem;
+    margin-right: 2rem;
+      transition: all 0.3s ease;
+}
+
+.social i:hover {
+    color: #a993fe;
+        background: #000;
+        outline: 1.5px solid #a993fe;
+}
+@media(min-width:1025px){
+    .hero-container p{
+        margin-bottom: 3.3rem;
+    }
+}
+
+@media(max-width: 1025px){
+
+    .hero-container{
+        margin-top: 8rem;
+    }
+    .hero-container h1{
+        font-size: 3.5rem;
+    }
+    .hero-container h3{
+        margin-bottom: 0.4rem;
+    }
+    .hero-container p{
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+        width: 90%;
+    }
+    .social i{
+        width: 20px;
+        height: 20px;
+        
+    }
+}
+@media(max-width:425px){
+    .hero-container h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .hero-container h3{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .hero-container p{
+        text-align: center;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+
+    .share{
+        justify-content: space-evenly;
+    }
+    .social i{
+        padding: 1.5rem 1.2rem;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 1.5rem;
+    }
+}
+@media(max-width:375px){
+
+    .hero-container::after{
+        display: none;
+        
+    }
+    .hero-container h1{
+        font-size: 1.8rem;
+    }
+    .social i{
+        font-size: 1.3rem;
+        padding: 1.2rem 0.9rem;
+        margin-right: 1rem;
+    }
+}
