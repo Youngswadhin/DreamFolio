@@ -12,10 +12,11 @@ const Hero = () => {
       <div className="share">
         <div className="social">
           <a href="https://www.linkedin.com/in/swadhin-kumar-muduli-6b4ab7261"><i className='bx bxl-linkedin'></i></a>
-          <a href="#"><i className='bx bxl-github'></i></a>
+          <a href="https://github.com/Youngswadhin"><i className='bx bxl-github'></i></a>
           <a href="https://instagram.com/young_swadhin?igshid=NGExMmI2YTkyZg=="><i className='bx bxl-instagram'></i></a>
           <a href="mailto:youngswadhin@gmail.com"><i className='bx bxl-gmail'></i></a>
-          <a href="#"><i className='bx bxl-whatsapp'></i></a>
+        <a href="https://wa.me/8117002071?text=Hey%20Swadhin" target="_blank"><i className='bx bxl-whatsapp'></i></a>
+
         </div>
       </div>
     </section>

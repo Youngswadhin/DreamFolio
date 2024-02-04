@@ -45,33 +45,24 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    title:"Senior Frontend Developer",
-    date:"January 2022-Present",
+    title:"Travel App",
+    date:"HTML | CSS | Javascript",
     responsibilities: [
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuuehfuwhef09 efh 99ru 3r9u ",
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuuedhfuwhef09 efh 99ru 3r9u ",
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuduehfuwhef09 efh 99ru 3r9u ",
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuuehfuwzhef09 efh 99ru 3r9u ",
+      "Implemented responsive design principles, ensuring seamless functionality across various devices and screen sizes.",
+      "Developed and maintained a user-friendly interface, incorporating intuitive navigation and interactive features to enhance user satisfaction. ",
+      "Utilized SEO best practices to optimize content and improve the website's search engine ranking, resulting in a 20% increase in organic traffic. ",
+      "Provided technical support to users, addressing inquiries and troubleshooting issues promptly. ",
     ],
   },
   {
-    title:"Junior Web Frontend Developer",
-    date:"June 2020 - December 2021",
+    title:"Smart Home Automation System",
+    date:"C++ | Flutter | Ardiuno | Web-Socket | ESP-32 ",
     responsibilities: [
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuuehfuwhef09 efh 99ru 3r9u ",
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuuedhfuwhef09 efh 99ru 3r9u ",
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuduehfuwhef09 efh 99ru 3r9u ",
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuuehfuwzhef09 efh 99ru 3r9u ",
+      "Design and implement a comprehensive smart home automation system to enhance energy efficiency, security, and user convenience. ",
+      "Integrated IoT devices, including smart thermostats, lighting systems, and security cameras, to enable remote control and monitoring via a mobile app.",
+      "Programmed custom automation scripts using Python to optimize energy usage based on occupancy patterns and external factors. ",
+      "Implemented voice control functionality through integration with virtual assistants like Amazon Alexa and Google Assistant. ",
     ],
   },
-  {
-    title:"Intern Frontend Developer",
-    date:"May 2019 - August 2019",
-    responsibilities: [
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuuehfuwhef09 efh 99ru 3r9u ",
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuuedhfuwhef09 efh 99ru 3r9u ",
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuduehfuwhef09 efh 99ru 3r9u ",
-      "jwewpfjojonrfihuywwaqa wqheijeifweeeronqwei9bnuiru rfuuehfuwzhef09 efh 99ru 3r9u ",
-    ],
-  },
+
 ]
