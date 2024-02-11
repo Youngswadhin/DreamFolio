@@ -14,7 +14,8 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                 <li> <a href="#projects"className='menu-item'>Projects</a></li>
                 <li> <a href="#contact"className='menu-item'>Contact Me</a></li>
 
-            <button className='contact-btn' onClick={() => {}}>Resume</button>
+            <button className='contact-btn' onClick={() => { window.open('https://docs.google.com/document/d/1cuiCDkuKDEgobTyI7P8MONI7mox4y746P23El8YxdcM/edit?usp=drivesdk', '_blank'); }}>Resume</button>
+
           </ul>
 
         </div>
